@@ -5,6 +5,8 @@
     margin: 0;
 }
 
+/* Header styles */
+
 header {
     display: flex;
     background-color: #1f2937;
@@ -28,11 +30,58 @@ header ul li {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+}
+
+header div {
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    align-items: flex-end;
+    gap: 16px;
+
 }
 
 .logo {
     width: 70px;
     height: auto;
     filter: invert(100%);
+}
+
+/* Hero styles */
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    background-color: #1f2937;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    align-self: start;
+    margin-bottom: 16px;
+    font-weight: 700;
 }
