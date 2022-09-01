@@ -118,3 +118,31 @@ h2 {
     max-width: 250px;
     row-gap: 16px;
 }
+
+/* quote section */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 1rem;
+    max-width: 1200px;
+}
+
+q {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937
+}
+
+.author p {
+    font-weight: 700;
+}
