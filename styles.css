@@ -3,6 +3,7 @@
     font-family: Roboto, sans-serif;
     padding: 0;
     margin: 0;
+    font-size: 18px;
 }
 
 /* Header styles */
@@ -71,7 +72,6 @@ header div {
 }
 
 .hero-left p {
-    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -145,4 +145,39 @@ q {
 
 .author p {
     font-weight: 700;
+}
+
+/* call to action section */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    padding: 16px;
+}
+
+.cta-inner {
+    display: flex;
+    width: 1200px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 32px;
+    gap: 16px;
+}
+
+.cta-inner h3,
+.cta-inner p {
+    color: #f9faf8;
+}
+
+.cta-inner button {
+    background-color: #3882f6;
+    border: 2px solid   #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 8px 32px;
+    font-size: 16px;
 }
