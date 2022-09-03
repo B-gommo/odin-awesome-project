@@ -181,3 +181,13 @@ q {
     padding: 8px 32px;
     font-size: 16px;
 }
+
+/* Footer */
+
+footer {
+    height: 74px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 26px;
+    text-align: center;
+}
